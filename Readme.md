@@ -81,7 +81,7 @@ para main:
 
 - Criar uma ramificação/branch nova:
 	
-  *git branch <funcionalidade_x>
+  *git branch <branch>
 	
   **Imagem ilustrativa
 
@@ -93,13 +93,13 @@ para main:
 
 - Deletar uma ramificação/branch:
 	
-  *git branch -d <funcionalidade_x>
+  *git branch -d <branch>
 	
   **Imagem ilustrativa
 
 - Enviar uma ramificação/branch ao repositório remoto:
 	
-  *git push origin <funcionalidade_x>
+  *git push origin <branch>
 	
   **Imagem ilustrativa
 
