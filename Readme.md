@@ -145,7 +145,6 @@ DICAS GITBASH ou GITHUB DESKTOP:
 	
   **Imagem ilustrativa
 
-
 - Verificar histórico de versoes:
 	
   *git reflog
@@ -172,7 +171,6 @@ DICAS GITBASH ou GITHUB DESKTOP:
 	
   **Imagem ilustrativa
 
-
 - Copiar um repositório local/remoto:
 	
   *git clone /caminho/para/o/repositório
@@ -180,8 +178,6 @@ DICAS GITBASH ou GITHUB DESKTOP:
   *git clone usuario@servidor:/caminho/para/o/repositório
 	
   **Imagem ilustrativa
-
-
 
 - Verificar o nome da(s) branch(s):
 	
