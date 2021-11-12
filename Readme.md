@@ -1,4 +1,4 @@
-##DOWNLOADS/CADASTROS:
+## DOWNLOADS/CADASTROS:
 
 *Cadastro no GitHub:https://github.com
 
@@ -8,7 +8,7 @@
 
 
 
-##CONFIGURAÇÕES NO GITBASH, DEPOIS DE CRIAR O GITHUB:
+## CONFIGURAÇÕES NO GITBASH, DEPOIS DE CRIAR O GITHUB:
 
 - `Configurar o usuário remoto no repositório local, primeiro uso do git:`
 
@@ -20,7 +20,7 @@
 
 
 
-##SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
+## SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
 - `Criar um novo repositório local:`
 
@@ -120,7 +120,7 @@
 
 
 
-##FUNCIONALIDADES GITBASH OU GITHUB DESKTOP:
+## FUNCIONALIDADES GITBASH OU GITHUB DESKTOP:
 
 - `Verificar atualização do repositório local:`
 	
@@ -156,6 +156,12 @@
 	
   *git log -p
 	
+  **Imagem ilustrativa
+
+- `Adicionar e comitar ao mesmo tempo`
+
+  *git commit -am (comentários das alteraçoes)  
+
   **Imagem ilustrativa
 
 - `Guardar arquivos para não serem comitadas:`
@@ -228,7 +234,7 @@
 	
   **Imagem ilustrativa  
 
-- Fazer inclusões interativas:
+- `Fazer inclusões interativas:`
 	
   *git add -i
 	
