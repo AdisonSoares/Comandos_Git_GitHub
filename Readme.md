@@ -20,7 +20,9 @@
 
 
 
-## SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
+
+
+## COMANDOS GITBASH ou GITHUB DESKTOP:
 
 - `Criar um novo repositório local:`
 
@@ -62,6 +64,8 @@
 
   *git push origin (branch)
 
+  *git push
+
   **Imagem ilustrativa   
 
 - `Atualizar o servidor local com as alteracoes feitas no servidor remoto:`
@@ -96,6 +100,8 @@
 
   *git push origin (branch)
 	
+  *git push
+  
   **Imagem ilustrativa
 
 - `Visualizar as diferenças entre branchs antes de fazer o merge:`
@@ -117,6 +123,8 @@
   *git merge (branch)
 	
   **Imagem ilustrativa
+
+
 
 
 
