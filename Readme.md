@@ -35,14 +35,14 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
   *git remote add origin <link do repositorio criado no github>   
   **Imagem ilustrativa  
 
--Caso a branch principal seja a master,definir para qual branch deve ser enviado do arquivo local para o remoto:
-  *git push --set-upstream origin master  
+-Definir para qual branch deve ser enviado do arquivo local para o remoto:
+  *git push --set-upstream origin main  
   **Imagem ilustrativa
 
-- Enviar o arquivo comitado para o github tendo a branch principal renomeada
-para main:
+- Enviar o arquivo comitado para o github:
   *git push -u origin main
   **Imagem ilustrativa 
+
 
 - Atualizar o servidor local com os dados do servidor remoto:
   *git pull
