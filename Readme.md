@@ -30,7 +30,7 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
 - Mudar o nome da branch master para main:
 
-  *git branch -M <main>
+  *git branch -M (main)
   
   **Imagem ilustrativa   
 
@@ -38,27 +38,27 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
   *git add .
 	
-  *git add <nome do arquivo>
+  *git add (nome do arquivo)
 	
   **Imagem ilustrativa
 
 - Confirmar modificações no repositório local, criar versões de arquivo:
 
-  *git commit -m "comentários das alteraçoes"
+  *git commit -m (comentários das alteraçoes)
 	
   **Imagem ilustrativa
 
 - Gravar o endereço de envio do arquivo local depois de criar um repositório remoto no github:
 	
-  *git remote add origin <link do repositorio criado no github>
+  *git remote add origin "link do repositorio criado no github"
 	
   **Imagem ilustrativa  
 
 - Enviar o arquivo comitado para o github:
 	
-  *git push --set-upstream origin <branch>  
+  *git push --set-upstream origin (branch)
 	
-  *git push -u origin <branch>
+  *git push -u origin (branch)
 	
   *git push
   
@@ -72,27 +72,27 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
 - Criar uma ramificação/branch nova:
 	
-  *git branch <branch>
+  *git branch (branch)
 	
   **Imagem ilustrativa
 
 - Selecionar uma ramificaçao/branch:
 	
-  *git checkout <branch>
+  *git checkout (branch)
 	
   **Imagem ilustrativa
 
 - Deletar uma ramificação/branch:
 	
-  *git branch -D <branch>
+  *git branch -D (branch)
 	
   **Imagem ilustrativa
 
 - Enviar uma ramificação/branch comitada ao repositório remoto:
 	
-  *git push --set-upstream origin <branch>  
+  *git push --set-upstream origin (branch) 
 
-  *git push -u origin <branch>
+  *git push -u origin (branch)
 
   *git push
 	
@@ -100,7 +100,7 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
 - Visualizar as diferenças entre ramificações/branchs antes de fazer o merge:
 	
-  *git diff <branch origem> <branch destino>
+  *git diff (branch origem) (branch destino)
 	
   **Imagem ilustrativa
 
@@ -108,13 +108,13 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 	
   *git add .
 	
-  *git add <nome do arquivo>
+  *git add (nome do arquivo)
 
   **Imagem ilustrativa
 
 - Unir uma ramificação/branch secundaria à ramificação/branch main:
 	
-  *git merge <branch>
+  *git merge (branch)
 	
   **Imagem ilustrativa
 
@@ -148,7 +148,7 @@ DICAS GITBASH ou GITHUB DESKTOP:
 
 - Voltar/Navegar entre commits do repositorio local:
 
-  *git reset --hard <7 primeiros digitos do id da commit escolhida>
+  *git reset --hard (7 caracteres id da commit)
 
   **Imagem ilustrativa
  
@@ -182,13 +182,13 @@ DICAS GITBASH ou GITHUB DESKTOP:
 
 - Rotular o commit:
 	
-  *git tag 1.0.0 <10 caracteres id commit>
+  *git tag 1.0.0 (10 caracteres id commit)
 	
   **Imagem ilustrativa
 
 - Sobrescrever alteracoes locais:
 	
-  *git checkout -- <arquivo>
+  *git checkout -- (arquiv)
 	
   **Imagem ilustrativa
 
