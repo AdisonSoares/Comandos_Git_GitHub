@@ -1,4 +1,4 @@
-DOWNLOADS/CADASTROS:
+##DOWNLOADS/CADASTROS:
 
 *Cadastro no GitHub:https://github.com
 
@@ -8,9 +8,9 @@ DOWNLOADS/CADASTROS:
 
 
 
-CONFIGURAÇÕES NO GITBASH, DEPOIS DE CRIAR O GITHUB:
+##CONFIGURAÇÕES NO GITBASH, DEPOIS DE CRIAR O GITHUB:
 
-- Configurar o usuário remoto no repositório local, primeiro uso do git:
+- `Configurar o usuário remoto no repositório local, primeiro uso do git:`
 
   *git config --global user.email "email de criação do github"
   
@@ -20,21 +20,21 @@ CONFIGURAÇÕES NO GITBASH, DEPOIS DE CRIAR O GITHUB:
 
 
 
-SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
+##SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
-- Criar um novo repositório local:
+- `Criar um novo repositório local:`
 
   *git init 
   
   **Imagem ilustrativa
 
-- Mudar o nome da branch master para main:
+- `Mudar o nome da branch master para main:`
 
   *git branch -M (main)
   
   **Imagem ilustrativa   
 
-- Adicionar modificações no repositório local:
+- `Adicionar modificações no repositório local:`
 
   *git add .
 	
@@ -42,69 +42,69 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 	
   **Imagem ilustrativa
 
-- Confirmar modificações no repositório local, criar versões de arquivo:
+- `Confirmar modificações no repositório local, criar versões de arquivo:`
 
   *git commit -m (comentários das alteraçoes)
 	
   **Imagem ilustrativa
 
-- Gravar o endereço de envio do arquivo local depois de criar um repositório remoto no github:
+- `Gravar o endereço de envio do arquivo local ao github:`
 	
   *git remote add origin (link do repositorio criado no github)
 	
   **Imagem ilustrativa  
 
-- Enviar o arquivo comitado para o github:
+- `Enviar o arquivo comitado para o github:`
 	
   *git push --set-upstream origin (branch)
 	
   *git push -u origin (branch)
-	
-  *git push
-  
+
+  *git push origin (branch)
+
   **Imagem ilustrativa   
 
-- Atualizar o servidor local com as alteracoes feitas no servidor remoto:
+- `Atualizar o servidor local com as alteracoes feitas no servidor remoto:`
 	
   *git pull
 	
   **Imagem ilustrativa  
 
-- Criar uma ramificação/branch nova:
+- `Criar uma ramificação/branch nova:`
 	
   *git branch (branch)
 	
   **Imagem ilustrativa
 
-- Selecionar uma ramificaçao/branch:
+- `Selecionar uma ramificaçao/branch:`
 	
   *git checkout (branch)
 	
   **Imagem ilustrativa
 
-- Deletar uma ramificação/branch:
+- `Deletar uma ramificação/branch:`
 	
   *git branch -D (branch)
 	
   **Imagem ilustrativa
 
-- Enviar uma ramificação/branch comitada ao repositório remoto:
+- `Enviar uma ramificação/branch comitada ao repositório remoto:`
 	
   *git push --set-upstream origin (branch) 
 
   *git push -u origin (branch)
 
-  *git push
+  *git push origin (branch)
 	
   **Imagem ilustrativa
 
-- Visualizar as diferenças entre ramificações/branchs antes de fazer o merge:
+- `Visualizar as diferenças entre branchs antes de fazer o merge:`
 	
   *git diff (branch origem) (branch destino)
 	
   **Imagem ilustrativa
 
-- Preparar as ramificações/branchs depois de resolver os conflitos:
+- `Preparar as ramificações/branchs depois de resolver os conflitos:`
 	
   *git add .
 	
@@ -112,7 +112,7 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
   **Imagem ilustrativa
 
-- Unir uma ramificação/branch secundaria à ramificação/branch main:
+- `Unir uma ramificação/branch secundaria à ramificação/branch main:`
 	
   *git merge (branch)
 	
@@ -120,45 +120,63 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
 
 
-DICAS GITBASH ou GITHUB DESKTOP:
+##FUNCIONALIDADES GITBASH OU GITHUB DESKTOP:
 
-- Verificar atualização do repositório local:
+- `Verificar atualização do repositório local:`
 	
   *git status
 	
   **Imagem ilustrativa
 
-- Verificar histórico e id de commits:
+- `Verificar histórico e id de commits:`
 	
   *git log
 	
   **Imagem ilustrativa
 
-- Verificar histórico de commits em uma linha cada:
+- `Verificar histórico de commits em uma linha cada:`
 	
   *git log --oneline
 	
   **Imagem ilustrativa
 
-- Verificar histórico de versoes:
+- `Verificar histórico de versoes:`
 	
   *git reflog
 	
   **Imagem ilustrativa
 
-- Voltar/Navegar entre commits do repositorio local:
+- `Voltar/Navegar entre commits do repositorio local:`
 
   *git reset --hard (7 caracteres id da commit)
 
   **Imagem ilustrativa
  
-- Verificar diferenças entre commits:
+- `Verificar diferenças entre commits:`
 	
   *git log -p
 	
   **Imagem ilustrativa
 
-- Remover todas as alterações e commits locais:
+- `Guardar arquivos para não serem comitadas:`
+
+  *touch .gitignore  
+
+  **Imagem ilustrativa
+
+- `Criar nova branch com base em outra e fazer checkout automatico:`
+
+  *git checkout -b (branch origem) (branch nova)
+
+  **Imagem ilustrativa
+
+- `Limpar a tela do gitbash:`
+
+  *clear
+
+  **Imagem ilustrativa
+
+- `Remover todas as alteracoes e commits locais:`
 	
   *git fetch origin
 	
@@ -166,7 +184,7 @@ DICAS GITBASH ou GITHUB DESKTOP:
 	
   **Imagem ilustrativa
 
-- Copiar um repositório local/remoto:
+- `Copiar um repositório local/remoto:`
 	
   *git clone /caminho/para/o/repositório
 	
@@ -174,37 +192,37 @@ DICAS GITBASH ou GITHUB DESKTOP:
 	
   **Imagem ilustrativa
 
-- Verificar o nome da(s) branch(s):
+- `Verificar o nome da(s) branch(s):`
 	
   *git branch
 	
   **Imagem ilustrativa
 
-- Rotular o commit:
+- `Rotular o commit:`
 	
   *git tag 1.0.0 (10 caracteres id commit)
 	
   **Imagem ilustrativa
 
-- Sobrescrever alteracoes locais:
+- `Sobrescrever alteracoes locais:`
 	
   *git checkout -- (arquiv)
 	
   **Imagem ilustrativa
 
-- Interface gráfica padrão:
+- `Interface gráfica padrão:`
 	
   *gitk
 	
   **Imagem ilustrativa
 
-- Usar saídas do git coloridas:
+- `Usar saídas do git coloridas:`
 	
   *git config color.ui true
 	
   **Imagem ilustrativa
 
-- Exibir log em apenas uma linha por commit:
+- `Exibir log em apenas uma linha por commit:`
 	
   *git config format.pretty oneline
 	
