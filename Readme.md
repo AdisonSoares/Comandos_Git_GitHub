@@ -20,8 +20,6 @@
 
 
 
-
-
 ## COMANDOS GITBASH ou GITHUB DESKTOP:
 
 - `Criar um novo repositório local:`
@@ -101,7 +99,7 @@
   *git push origin (branch)
 	
   *git push
-  
+
   **Imagem ilustrativa
 
 - `Visualizar as diferenças entre branchs antes de fazer o merge:`
@@ -123,8 +121,6 @@
   *git merge (branch)
 	
   **Imagem ilustrativa
-
-
 
 
 
