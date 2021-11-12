@@ -54,21 +54,12 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 	
   **Imagem ilustrativa  
 
--Definir para qual branch deve ser enviado do arquivo local para o remoto:
+- Enviar o arquivo comitado para o github:
 	
-  *git push --set-upstream origin main  
+  *git push --set-upstream origin <branch>  
 	
-  **Imagem ilustrativa
-
-- Enviar o arquivo comitado para o github tendo a branch principal renomeada
-para main:
+  *git push -u origin <branch>
 	
-  *git push -u origin main
-	
-  **Imagem ilustrativa 
-
-- Enviar o arquivo comitado para o github depois do primeiro commit:
-
   *git push
   
   **Imagem ilustrativa   
@@ -93,13 +84,17 @@ para main:
 
 - Deletar uma ramificação/branch:
 	
-  *git branch -d <branch>
+  *git branch -D <branch>
 	
   **Imagem ilustrativa
 
-- Enviar uma ramificação/branch ao repositório remoto:
+- Enviar uma ramificação/branch comitada ao repositório remoto:
 	
-  *git push origin <branch>
+  *git push --set-upstream origin <branch>  
+
+  *git push -u origin <branch>
+
+  *git push
 	
   **Imagem ilustrativa
 
