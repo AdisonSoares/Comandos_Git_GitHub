@@ -238,7 +238,7 @@
 	
   **Imagem ilustrativa  
 
-- `Fazer inclusões interativas:`
+- Fazer inclusões interativas:
 	
   *git add -i
 	
