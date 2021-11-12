@@ -1,8 +1,8 @@
 DOWNLOADS/CADASTROS:
 
-*Cadastro no GitHub:https://github.com/
-*Baixar o GitHub Desktop: https://desktop.github.com/
-*Baixar o Git: https://git-scm.com/
+*Cadastro no GitHub:https://github.com
+*Baixar o GitHub Desktop: https://desktop.github.com
+*Baixar o Git: https://git-scm.com
 
 CONFIGURAÇÕES NO GITBASH, DEPOIS DE CRIAR O GITHUB:
 
