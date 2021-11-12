@@ -50,7 +50,7 @@ SINTAXE GIT/COMANDOS GITBASH ou GITHUB DESKTOP:
 
 - Gravar o endereço de envio do arquivo local depois de criar um repositório remoto no github:
 	
-  *git remote add origin "link do repositorio criado no github"
+  *git remote add origin (link do repositorio criado no github)
 	
   **Imagem ilustrativa  
 
