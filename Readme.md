@@ -180,11 +180,6 @@
 
   **Imagem ilustrativa
 
-- `Limpar a tela do gitbash:`
-
-  *clear
-
-  **Imagem ilustrativa
 
 - `Desfazer um commit do arquivo:`
 
@@ -251,3 +246,30 @@
 	
   **Imagem ilustrativa  
 
+
+
+## COMANDOS DE TERMINAL:
+
+- `Mudar o diretorio atual:`
+	
+  *cd
+	
+  **Imagem ilustrativa
+
+- `Mudar para o diretorio anterior:`
+	
+  *cd ..
+	
+  **Imagem ilustrativa  
+
+- `Listar os arquivos do diretorio:`
+	
+  *ls
+	
+  **Imagem ilustrativa  
+
+- `Limpar a tela:`
+
+  *clear
+
+  **Imagem ilustrativa
