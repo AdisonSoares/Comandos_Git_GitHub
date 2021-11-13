@@ -8,7 +8,7 @@
 
 
 
-## CONFIGURAÇÕES NO GITBASH, DEPOIS DE CRIAR O GITHUB:
+## CONFIGURAÇÕES NO GITBASH:
 
 - `Configurar o usuário remoto no repositório local, primeiro uso do git:`
 
