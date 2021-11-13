@@ -126,6 +126,30 @@
 
 ## FUNCIONALIDADES GITBASH:
 
+- `Adicionar e comitar ao mesmo tempo`
+
+  *git commit -am (comentários das alteraçoes)  
+
+  **Imagem ilustrativa
+
+- `Desfazer um commit do arquivo:`
+
+  *git rm --cached (nome do arquivo)
+
+  **Imagem ilustrativa 
+
+- `Guardar arquivos para não serem comitadas:`
+
+  *touch .gitignore  
+
+  **Imagem ilustrativa    
+
+- `Voltar/Navegar entre commits do repositorio local:`
+
+  *git reset --hard (7 caracteres id da commit)
+
+  **Imagem ilustrativa
+
 - `Verificar atualização do repositório local:`
 	
   *git status
@@ -150,28 +174,10 @@
 	
   **Imagem ilustrativa
 
-- `Voltar/Navegar entre commits do repositorio local:`
-
-  *git reset --hard (7 caracteres id da commit)
-
-  **Imagem ilustrativa
- 
 - `Verificar diferenças entre commits:`
 	
   *git log -p
 	
-  **Imagem ilustrativa
-
-- `Adicionar e comitar ao mesmo tempo`
-
-  *git commit -am (comentários das alteraçoes)  
-
-  **Imagem ilustrativa
-
-- `Guardar arquivos para não serem comitadas:`
-
-  *touch .gitignore  
-
   **Imagem ilustrativa
 
 - `Criar nova branch com base em outra e fazer checkout automatico:`
@@ -179,14 +185,6 @@
   *git checkout -b (branch origem) (branch nova)
 
   **Imagem ilustrativa
-
-
-- `Desfazer um commit do arquivo:`
-
-  *git rm --cached (nome do arquivo)
-
-  **Imagem ilustrativa
-
 
 - `Remover todas as alteracoes e commits locais:`
 	
@@ -210,45 +208,32 @@
 	
   **Imagem ilustrativa
 
-- `Rotular o commit:`
-	
-  *git tag 1.0.0 (10 caracteres id commit)
-	
-  **Imagem ilustrativa
-
 - `Sobrescrever alteracoes locais:`
 	
-  *git checkout -- (arquivo)
-	
-  **Imagem ilustrativa
-
-- `Interface gráfica padrão:`
-	
-  *gitk
-	
-  **Imagem ilustrativa
-
-- `Usar saídas do git coloridas:`
-	
-  *git config color.ui true
-	
-  **Imagem ilustrativa
-
-- `Exibir log em apenas uma linha por commit:`
-	
-  *git config format.pretty oneline
+  *git checkout --(arquivo)
 	
   **Imagem ilustrativa  
-
-- `Fazer inclusões interativas:`
-	
-  *git add -i
-	
-  **Imagem ilustrativa  
-
 
 
 ## COMANDOS DE TERMINAL:
+
+- `Listar os conteudos do diretorio:`
+	
+  *ls
+	
+  **Imagem ilustrativa 
+
+- `Exibir arquivos/diretórios do diretório atual:`
+
+  *dir
+
+  **Imagem ilustrativa  
+
+- `Exibir o caminho do diretório atual:`
+
+  *pwd
+
+  **Imagem ilustrativa  
 
 - `Mudar o diretorio atual:`
 	
@@ -262,14 +247,51 @@
 	
   **Imagem ilustrativa  
 
-- `Listar os arquivos do diretorio:`
-	
-  *ls
-	
-  **Imagem ilustrativa  
-
 - `Limpar a tela:`
 
   *clear
 
   **Imagem ilustrativa
+
+- `Criar uma pasta:`
+
+  *mkdir
+
+  **Imagem ilustrativa    
+
+- `Criar uma pasta e subdiretorios:`
+
+  *mkdir pasta\subdiretorio\subdiretorio
+
+  **Imagem ilustrativa  
+
+- `Copiar/Duplicar uma arquivo:`
+
+  *copy
+
+  **Imagem ilustrativa    
+
+- `Mover/Renomear uma arquivo:`
+
+  *move
+
+  **Imagem ilustrativa      
+
+- `Deletar um arquivo:`
+
+  *del
+
+  **Imagem ilustrativa    
+
+- `Deletar uma pasta vazia:`
+
+  *rmdir
+
+  **Imagem ilustrativa  
+
+- `Deletar uma pasta nao vazia:`
+
+  *rmdir /s
+
+  **Imagem ilustrativa   
+ 
