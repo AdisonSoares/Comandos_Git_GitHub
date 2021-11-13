@@ -20,7 +20,7 @@
 
 
 
-## COMANDOS GITBASH ou GITHUB DESKTOP:
+## FLUXO GITBASH:
 
 - `Criar um novo repositório local:`
 
@@ -124,7 +124,7 @@
 
 
 
-## FUNCIONALIDADES GITBASH OU GITHUB DESKTOP:
+## FUNCIONALIDADES GITBASH:
 
 - `Verificar atualização do repositório local:`
 	
