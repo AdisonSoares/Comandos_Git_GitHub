@@ -216,7 +216,7 @@
 
 - `Sobrescrever alteracoes locais:`
 	
-  *git checkout -- (arquiv)
+  *git checkout -- (arquivo)
 	
   **Imagem ilustrativa
 
