@@ -186,6 +186,13 @@
 
   **Imagem ilustrativa
 
+- `Desfazer um commit do arquivo:`
+
+  *git rm --cached (nome do arquivo)
+
+  **Imagem ilustrativa
+
+
 - `Remover todas as alteracoes e commits locais:`
 	
   *git fetch origin
