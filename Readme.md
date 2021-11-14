@@ -84,12 +84,6 @@
 	
   **Imagem ilustrativa
 
-- `Deletar uma ramificação/branch:`
-	
-  *git branch -D (branch)
-	
-  **Imagem ilustrativa
-
 - `Enviar uma ramificação/branch comitada ao repositório remoto:`
 	
   *git push --set-upstream origin (branch) 
@@ -108,7 +102,7 @@
 	
   **Imagem ilustrativa
 
-- `Preparar as ramificações/branchs depois de resolver os conflitos:`
+- `Preparar as ramificações/branchs depois de resolver os conflitos para comitar:`
 	
   *git add .
 	
@@ -132,6 +126,24 @@
 
   **Imagem ilustrativa
 
+- `Criar nova branch com base em outra e fazer checkout automatico:`
+
+  *git checkout -b (branch nova)
+
+  **Imagem ilustrativa  
+
+- `Deletar uma ramificação/branch:`
+	
+  *git branch -D (branch)
+	
+  **Imagem ilustrativa
+
+- `Visulizar os repositorios remotos:`
+
+  *git remote -v
+
+  **Imagem ilustrativa   
+
 - `Desfazer um commit do arquivo:`
 
   *git rm --cached (nome do arquivo)
@@ -143,12 +155,6 @@
   *touch .gitignore  
 
   **Imagem ilustrativa    
-
-- `Voltar/Navegar entre commits do repositorio local:`
-
-  *git reset --hard (7 caracteres id da commit)
-
-  **Imagem ilustrativa
 
 - `Verificar atualização do repositório local:`
 	
@@ -174,16 +180,36 @@
 	
   **Imagem ilustrativa
 
+- `Voltar/Navegar entre commits do repositorio local:`
+
+  *git checkout (id completo do comit escolhido) -- (nome do arquivo)
+
+  *git reset --hard (7 caracteres id da commit)
+
+  **Imagem ilustrativa
+  
 - `Verificar diferenças entre commits:`
 	
   *git log -p
 	
   **Imagem ilustrativa
 
-- `Criar nova branch com base em outra e fazer checkout automatico:`
+- `Gravar dados para não precisar colocar email e senha ao fazer push`
 
-  *git checkout -b (branch origem) (branch nova)
+  *git config credential.helper store
 
+  **Imagem ilustrativa
+
+- `Verificar ultimo ponto da commit:`
+	
+  *git show
+	
+  **Imagem ilustrativa
+
+- `Verificar edições dentro da commit:`
+	
+  *git show (id completo da commit)
+	
   **Imagem ilustrativa
 
 - `Remover todas as alteracoes e commits locais:`
@@ -196,10 +222,8 @@
 
 - `Copiar um repositório local/remoto:`
 	
-  *git clone /caminho/para/o/repositório
-	
-  *git clone usuario@servidor:/caminho/para/o/repositório
-	
+  *git clone (link do repositorio clonado)
+		
   **Imagem ilustrativa
 
 - `Verificar o nome da(s) branch(s):`
@@ -214,6 +238,18 @@
 	
   **Imagem ilustrativa  
 
+- `Retornar um arquivo deletado antes de adicionar:`
+	
+  *git checkout --(arquivo)
+	
+  **Imagem ilustrativa  
+
+- `Retornar um arquivo deletado antes de adicionar e comitar:`
+	
+  *git checkout (id completo do arquivo deletado) --(nome do arquivo deletado)
+	
+  **Imagem ilustrativa   
+
 
 ## COMANDOS DE TERMINAL:
 
@@ -223,7 +259,13 @@
 	
   **Imagem ilustrativa 
 
-- `Exibir arquivos/diretórios do diretório atual:`
+- `Listar os conteudos visíveis e invisíveis do diretorio:`
+	
+  *ls -al
+	
+  **Imagem ilustrativa   
+
+- `Exibir conteudo do diretório atual:`
 
   *dir
 
@@ -255,13 +297,13 @@
 
 - `Criar uma pasta:`
 
-  *mkdir
+  *mkdir (pasta)
 
   **Imagem ilustrativa    
 
 - `Criar uma pasta e subdiretorios:`
 
-  *mkdir pasta\subdiretorio\subdiretorio
+  *mkdir (pasta\subdiretorio\subdiretorio)
 
   **Imagem ilustrativa  
 
@@ -293,5 +335,59 @@
 
   *rmdir /s
 
+  **Imagem ilustrativa  
+
+- `Editar um arquivo dentro do diretorio:`
+
+  *vim (arquivo.extensao)
+
+  **Imagem ilustrativa
+
+- `Sair do modo edição e salvar:`
+
+  *wq
+
+  **Imagem ilustrativa
+
+- `Sair do terminal:`
+
+  *exit
+
   **Imagem ilustrativa   
+
+
  
+
+## FLUXO GITHUB:
+
+- `Criar um repositorio:`
+
+  *New
+
+  *Repositories -> New
+
+  **Imagem ilustrativa
+
+- `Clonar um repositorio de outro:`
+
+  *Repositories (outro perfil) -> Fork -> Repositories (proprio perfil)
+
+  **Imagem ilustrativa
+
+- `Alterar um repositorio de outro:`
+
+  *Contribute -> Open pull request -> Create pull request -> Comentario -> Create pull request
+
+  **Imagem ilustrativa  
+
+- `Aceitar um pull request:`
+
+  *Pull requests -> Seleciona -> Merge pull request
+
+  **Imagem ilustrativa   
+
+- `Não aceitar um pull request:`
+
+  *Pull requests -> Seleciona -> Close pull request
+
+  **Imagem ilustrativa    
