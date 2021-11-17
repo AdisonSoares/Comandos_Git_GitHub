@@ -1,6 +1,6 @@
 ## DOWNLOADS/CADASTROS:
 
-*Cadastro no GitHub:https://github.com
+*Cadastro no GitHub: https://github.com
 
 *Baixar o GitHub Desktop: https://desktop.github.com
 
@@ -330,7 +330,7 @@
   -> New SSH key 
   ->Title(Local de criação)
   -> Key (Colar a chave publica) 
-  
+
   -> Add SSH key
 
 - `Criar um repositorio:`
