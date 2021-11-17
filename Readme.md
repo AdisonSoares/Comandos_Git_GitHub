@@ -326,7 +326,8 @@
 
 - `Cadastrar uma chave publica para atualização do github por meio do git:`
 
-  *Settings -> SSH and GPG Keys -> New SSH key 
+  *Settings -> SSH and GPG Keys
+  -> New SSH key 
   ->Title(Local de criação)
   -> Key (Colar a chave publica) 
   -> Add SSH key
