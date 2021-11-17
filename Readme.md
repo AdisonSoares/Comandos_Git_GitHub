@@ -138,90 +138,51 @@
 
 
 ## FUNCIONALIDADES GITBASH:
-### EDIÇAO
-### VISUALIZAÇAO
-### EXCLUSAO
 
-
+### ARQUIVAMENTO
 - `Adicionar e comitar ao mesmo tempo`
 
   *git commit -am (comentários das alteraçoes)  
 
   **Imagem ilustrativa
 
+- `Guardar arquivos para não serem comitadas:`
+
+  *touch .gitignore  
+
+  **Imagem ilustrativa      
+
+- `Gravar dados para não precisar colocar email e senha ao fazer push`
+
+  *git config credential.helper store
+
+  **Imagem ilustrativa
+
+- `Verificar ultimo ponto da commit:`
+	
+  *git show
+	
+  **Imagem ilustrativa
+
+- `Copiar um repositório local/remoto:`
+	
+  *git clone (link do repositorio clonado)
+		
+  **Imagem ilustrativa  
+
+
+### EDIÇAO
 - `Criar nova branch com base em outra e fazer checkout automatico:`
 
   *git checkout -b (branch nova)
 
   **Imagem ilustrativa  
 
-- `Deletar uma branch/ramificação:`
-	
-  *git branch -D (branch)
- 
-  *git push origin :(branch)
-	
-  **Imagem ilustrativa
-
-- `Visulizar os repositorios remotos:`
-
-  *git remote -v
-
-  **Imagem ilustrativa   
-
 - `Desfazer um commit do arquivo:`
 
   *git rm --cached (nome do arquivo)
 
-  **Imagem ilustrativa 
-
-- `Guardar arquivos para não serem comitadas:`
-
-  *touch .gitignore  
-
-  **Imagem ilustrativa    
-
-- `Verificar atualização do repositório local:`
-	
-  *git status
-	
-  **Imagem ilustrativa
-
-- `Verificar histórico e id de commits:`
-	
-  *git log
-	
-  **Imagem ilustrativa
-
-- `Verificar histórico de commits em uma linha cada, ignorando o commit atual:`
-	
-  *git log --oneline
-	
-  **Imagem ilustrativa
-
-- `Verificar histórico de commits em uma linha cada, incluindo o commit atual:`
-	
-  *git log --oneline --all
-	
-  **Imagem ilustrativa
-
-- `Verificar histórico de commits em uma linha cada, incluindo o commit atual e o que foi modificado:`
-	
-  *git log --oneline --all --decorate
-	
-  **Imagem ilustrativa
-
-- `Verificar histórico de commits em uma linha cada, incluindo o commit atual e o que foi modificado de forma grafica:`
-	
-  *git log --oneline --all --decorate --graph
-	
-  **Imagem ilustrativa  
-
-- `Verificar histórico de versoes:`
-	
-  *git reflog
-	
-  **Imagem ilustrativa
+  **Imagem ilustrativa   
 
 - `Voltar ao estado antes do commit:`
 
@@ -239,56 +200,6 @@
 
   **Imagem ilustrativa
 
-- `Deletar uma commit do repositorio local:`
-
-  *git reset --hard (7 caracteres id da commit)
-
-  **Imagem ilustrativa
-  
-- `Verificar diferenças entre commits:`
-	
-  *git log -p
-	
-  **Imagem ilustrativa
-
-- `Gravar dados para não precisar colocar email e senha ao fazer push`
-
-  *git config credential.helper store
-
-  **Imagem ilustrativa
-
-- `Verificar ultimo ponto da commit:`
-	
-  *git show
-	
-  **Imagem ilustrativa
-
-- `Verificar edições dentro da commit:`
-	
-  *git show (id completo da commit)
-	
-  **Imagem ilustrativa
-
-- `Remover todas as alteracoes e commits locais:`
-	
-  *git fetch origin
-	
-  *git reset --hard origin/master
-	
-  **Imagem ilustrativa
-
-- `Copiar um repositório local/remoto:`
-	
-  *git clone (link do repositorio clonado)
-		
-  **Imagem ilustrativa
-
-- `Verificar o nome da(s) branch(s):`
-	
-  *git branch
-	
-  **Imagem ilustrativa
-
 - `Sobrescrever alteracoes locais:`
 	
   *git checkout --(arquivo)
@@ -299,13 +210,106 @@
 	
   *git checkout --(arquivo)
 	
-  **Imagem ilustrativa  
+  **Imagem ilustrativa    
 
 - `Retornar um arquivo deletado antes de adicionar e comitar:`
 	
   *git checkout (id completo do arquivo deletado) --(nome do arquivo deletado)
 	
   **Imagem ilustrativa   
+
+
+### VISUALIZAÇAO
+- `Verificar histórico de versoes:`
+	
+  *git reflog
+	
+  **Imagem ilustrativa
+
+- `Visulizar os repositorios remotos:`
+
+  *git remote -v
+
+  **Imagem ilustrativa  
+
+- `Verificar atualização do repositório local:`
+	
+  *git status
+	
+  **Imagem ilustrativa   
+
+- `Verificar histórico e id de commits:`
+	
+  *git log
+	
+  **Imagem ilustrativa  
+
+
+- `Verificar histórico de commits em uma linha cada, ignorando o commit atual:`
+	
+  *git log --oneline
+	
+  **Imagem ilustrativa  
+
+- `Verificar histórico de commits em uma linha cada, incluindo o commit atual:`
+	
+  *git log --oneline --all
+	
+  **Imagem ilustrativa  
+
+- `Verificar histórico de commits em uma linha cada, incluindo o commit atual e o que foi modificado:`
+	
+  *git log --oneline --all --decorate
+	
+  **Imagem ilustrativa  
+
+- `Verificar histórico de commits em uma linha cada, incluindo o commit atual e o que foi modificado de forma grafica:`
+	
+  *git log --oneline --all --decorate --graph
+	
+  **Imagem ilustrativa  
+
+- `Verificar diferenças entre commits:`
+	
+  *git log -p
+	
+  **Imagem ilustrativa  
+
+- `Verificar edições dentro da commit:`
+	
+  *git show (id completo da commit)
+	
+  **Imagem ilustrativa    
+
+- `Verificar o nome da(s) branch(s):`
+	
+  *git branch
+	
+  **Imagem ilustrativa
+
+
+### EXCLUSAO
+- `Deletar uma branch/ramificação:`
+	
+  *git branch -D (branch)
+ 
+  *git push origin :(branch)
+	
+  **Imagem ilustrativa
+
+- `Deletar uma commit do repositorio local:`
+
+  *git reset --hard (7 caracteres id da commit)
+
+  **Imagem ilustrativa
+
+- `Remover todas as alteracoes e commits locais:`
+	
+  *git fetch origin
+	
+  *git reset --hard origin/master
+	
+  **Imagem ilustrativa
 
 
 ## COMANDOS DE TERMINAL:
