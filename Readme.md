@@ -379,7 +379,8 @@
 
   *Repositories -> New -> Manage topcs 
   -> Criar palavras chave -> Upload files 
-  -> Commit changes -> Settings -> Github pages
+  -> Commit changes 
+  -> Settings -> Github pages
   -> None -> Master/Main branch -> Link criado
   -> Copiar o link ->Editar titulo -> Web Site (colar)
   
