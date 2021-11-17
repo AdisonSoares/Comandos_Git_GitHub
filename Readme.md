@@ -16,7 +16,7 @@
 
 - `Configurar o usuário remoto no repositório local, primeiro uso do git:`
 
-  *git config --global user.email "email de criação do github"
+  *git config --global user.email "Email de criação do github"
   
   *git config --global user.name "Nome do usuário"  
    
@@ -34,31 +34,31 @@
 
 - `Mudar o nome da branch master para main:`
 
-  *git branch -M (main)
+  *git branch -M (Main)
   
 - `Adicionar modificações no repositório local:`
 
   *git add .
 	
-  *git add (nome do arquivo)
+  *git add (Nome do arquivo)
 	
 
 - `Confirmar modificações no repositório local, criar versões de arquivo:`
 
-  *git commit -m (comentários das alteraçoes)
+  *git commit -m (Comentários das alteraçoes)
 	
 
 - `Gravar o endereço de envio do arquivo local ao github:`
 	
-  *git remote add origin (link do repositorio criado no github)
+  *git remote add origin (Link do repositorio criado no github)
 	
 - `Enviar o arquivo comitado ao github: `
 	
-  *git push --set-upstream origin (branch)
+  *git push --set-upstream origin (Branch)
 	
-  *git push -u origin (branch)
+  *git push -u origin (Branch)
 
-  *git push origin (branch)
+  *git push origin (Branch)
 
   *git push
 
@@ -68,11 +68,11 @@
 	
 - `Criar uma branch/ramificação nova:`
 	
-  *git branch (branch)
+  *git branch (Branch)
 	
 - `Selecionar uma branch/ramificaçao:`
 	
-  *git checkout (branch)
+  *git checkout (Branch)
 	
 - `Comparar o que foi mudado no arquivo antes de commitar:`
 	
@@ -82,11 +82,11 @@
 	
   *git add .
 	
-  *git add (nome do arquivo)
+  *git add (Nome do arquivo)
 
 - `Unir uma branch/ramificação secundaria à branch/ramificação main:`
 	
-  *git merge (branch)
+  *git merge (Branch)
 	
 
 ## FUNCIONALIDADES GITBASH:
@@ -94,7 +94,7 @@
 ### ARQUIVAMENTO
 - `Adicionar e comitar ao mesmo tempo`
 
-  *git commit -am (comentários das alteraçoes)  
+  *git commit -am (Comentários das alteraçoes)  
 
 - `Guardar arquivos para não serem comitadas:`
 
@@ -102,17 +102,21 @@
 
 - `Copiar um repositório local/remoto:`
 	
-  *git clone (link do repositorio clonado)
+  *git clone (Link do repositorio clonado)
 		
 - `Criar nova branch com base em outra e fazer checkout automatico:`
 
-  *git checkout -b (branch nova)
+  *git checkout -b (Branch nova)
+
+- `Fazer download das alterações que estão no github:`
+
+  *git fetch
 
   
 ### EDIÇAO
 - `Descartar mudanças feitas antes de adicionar:`
 
-  *git checkout (arquivo modificado)
+  *git checkout (Arquivo modificado)
 
 - `Descartar mudanças feitas depois de adicionar:`
 
@@ -120,11 +124,11 @@
 
 - `Desfazer um commit do arquivo:`
 
-  *git rm --cached (nome do arquivo)
+  *git rm --cached (Nome do arquivo)
 
 - `Voltar ao estado antes do commit:`
 
-  *git revert --no-edit (id do ultimo commit)    
+  *git revert --no-edit (Id do ultimo commit)    
 
 - `Voltar/Navegar entre commits do repositorio local:`
 
@@ -136,19 +140,19 @@
 
 - `Sobrescrever alteracoes locais:`
 	
-  *git checkout --(arquivo)
+  *git checkout --(Arquivo)
 	
 - `Retornar um arquivo deletado antes de adicionar:`
 	
-  *git checkout --(arquivo)
+  *git checkout --(Arquivo)
 	
 - `Retornar um arquivo deletado antes de adicionar e comitar:`
 	
-  *git checkout (id completo do arquivo deletado) --(nome do arquivo deletado)
+  *git checkout (Id completo do arquivo deletado) --(Nome do arquivo deletado)
 	
 - `Desfazer uma edição antes do commit em um arquivo especifico:`
 	
-  *git checkout HEAD -- (arquivo)
+  *git checkout HEAD -- (Arquivo)
 	
 
 ### VISUALIZAÇAO
@@ -206,7 +210,7 @@
 	
 - `Visualizar edições dentro da commit:`
 	
-  *git show (id completo da commit)
+  *git show (Id completo da commit)
 	
 - `Visualizar o nome da(s) branch(s):`
 	
@@ -218,18 +222,18 @@
 	
 - `Visualizar o que foi modificado dentro de um arquivo especifico:`
 	
-  *git diff (arquivo)
+  *git diff (Arquivo)
 	
 - `Visualizar as diferenças entre branchs antes de fazer o merge:`
 	
-  *git diff (branch origem) (branch destino)
+  *git diff (Branch origem) (Branch destino)
 	
 ### EXCLUSAO
 - `Deletar uma branch/ramificação:`
 	
-  *git branch -D (branch)
+  *git branch -D (Branch)
  
-  *git push origin :(branch)
+  *git push origin :(Branch)
 	
 - `Deletar uma commit do repositorio local:`
 
@@ -278,7 +282,7 @@
  
 - `Criar uma pasta e subdiretorios:`
 
-  *mkdir (pasta\subdiretorio\subdiretorio)
+  *mkdir (Pasta\Subdiretorio\Subdiretorio)
 
 - `Copiar/Duplicar uma arquivo:`
 
@@ -302,7 +306,7 @@
 
 - `Editar um arquivo dentro do diretorio:`
 
-  *vim (arquivo.extensao)
+  *vim (Arquivo.extensao)
 
 - `Sair do modo edição e salvar:`
 
@@ -310,7 +314,7 @@
 
 - `Criar arquivos e documentos:`
 
-  *touch (nome e extensao)
+  *touch (Nome e extensao)
 
 - `Abrir o VSCode no diretorio do projeto depois de configurar:`
 
@@ -339,10 +343,9 @@
 
   *Repositories -> New
 
-
 - `Clonar um repositorio de outro:`
 
-  *Repositories (outro perfil) -> Fork -> Repositories (proprio perfil)
+  *Repositories (Outro perfil) -> Fork -> Repositories (Proprio perfil)
 
 - `Alterar um repositorio de outro:`
 
@@ -356,4 +359,12 @@
 
   *Pull requests -> Seleciona -> Close pull request
 
-      
+- `Criar um novo arquivo dentro do repositorio:`
+
+  *Create new file -> nomear -> commitar -> commit new file
+
+- `Criar um novo arquivo dentro do repositorio com nova pasta:`
+
+  *Create new file -> nomear/ -> nomear -> commitar -> commit new file
+
+## KANBAN GITHUB:     
