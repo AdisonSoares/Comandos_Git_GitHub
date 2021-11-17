@@ -52,8 +52,7 @@
 	
   *git remote add origin (link do repositorio criado no github)
 	
-- `Enviar o arquivo comitado para o github` e
-- `Enviar uma branch/ramificação comitada ao repositório remoto:`
+- `Enviar o comit ao github: `
 	
   *git push --set-upstream origin (branch)
 	
@@ -329,7 +328,7 @@
   *Settings -> SSH and GPG Keys
   -> New SSH key 
   ->Title(Local de criação)
-  
+
   -> Key (Colar a chave publica) 
 
   -> Add SSH key
