@@ -52,7 +52,7 @@
 	
   *git remote add origin (link do repositorio criado no github)
 	
-- `Enviar o comit ao github: `
+- `Enviar o arquivo comitado ao github: `
 	
   *git push --set-upstream origin (branch)
 	
