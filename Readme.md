@@ -375,7 +375,6 @@
 
   *Create new file -> nomear/ -> nomear -> commitar -> commit new file  
 
-<<<<<<< HEAD
 - `Hospedar gratuitamente um site de forma limitada:`
 
   *Repositories -> New -> Manage topcs 
@@ -386,7 +385,7 @@
   
 - `Criar um projeto estilo kanban:`
 
-  * Projects -> Create a project -> Nomear
+  *Projects -> Create a project -> Nomear
   ->Descrever -> Create project
   -> Add a column 
   -> 1° To Do ->Create column
