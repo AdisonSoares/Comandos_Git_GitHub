@@ -10,6 +10,12 @@
 
 ## CONFIGURAÇÕES NO GITBASH:
 
+- `Criar uma chave privada publica:`
+
+  *ssh-keygen -t rsa -b 4096 -C (email cadastrado no github)
+
+  **Imagem ilustrativa
+
 - `Configurar o usuário remoto no repositório local, primeiro uso do git:`
 
   *git config --global user.email "email de criação do github"
@@ -54,7 +60,8 @@
 	
   **Imagem ilustrativa  
 
-- `Enviar o arquivo comitado para o github:`
+- `Enviar o arquivo comitado para o github` e
+- `Enviar uma branch/ramificação comitada ao repositório remoto:`
 	
   *git push --set-upstream origin (branch)
 	
@@ -72,29 +79,35 @@
 	
   **Imagem ilustrativa  
 
-- `Criar uma ramificação/branch nova:`
+- `Criar uma branch/ramificação nova:`
 	
   *git branch (branch)
 	
   **Imagem ilustrativa
 
-- `Selecionar uma ramificaçao/branch:`
+- `Selecionar uma branch/ramificaçao:`
 	
   *git checkout (branch)
 	
   **Imagem ilustrativa
 
-- `Enviar uma ramificação/branch comitada ao repositório remoto:`
+- `Comparar o que foi mudado no arquivo antes de commitar:`
 	
-  *git push --set-upstream origin (branch) 
-
-  *git push -u origin (branch)
-
-  *git push origin (branch)
+  *git diff
 	
-  *git push
-
   **Imagem ilustrativa
+
+- `Visualizar o nome dos arquivos que foram editados:`
+	
+  *git diff --name-only
+	
+  **Imagem ilustrativa  
+
+- `Visualizar o que foi modificado dentro de um arquivo especifico:`
+	
+  *git diff (arquivo)
+	
+  **Imagem ilustrativa   
 
 - `Visualizar as diferenças entre branchs antes de fazer o merge:`
 	
@@ -102,7 +115,13 @@
 	
   **Imagem ilustrativa
 
-- `Preparar as ramificações/branchs depois de resolver os conflitos para comitar:`
+- `Desfazer uma edição antes do commit em um arquivo especifico:`
+	
+  *git checkout HEAD -- (arquivo)
+	
+  **Imagem ilustrativa
+
+- `Preparar as branchs/ramificações depois de resolver os conflitos para comitar:`
 	
   *git add .
 	
@@ -110,7 +129,7 @@
 
   **Imagem ilustrativa
 
-- `Unir uma ramificação/branch secundaria à ramificação/branch main:`
+- `Unir uma branch/ramificação secundaria à branch/ramificação main:`
 	
   *git merge (branch)
 	
@@ -119,6 +138,10 @@
 
 
 ## FUNCIONALIDADES GITBASH:
+### EDIÇAO
+### VISUALIZAÇAO
+### EXCLUSAO
+
 
 - `Adicionar e comitar ao mesmo tempo`
 
@@ -132,9 +155,11 @@
 
   **Imagem ilustrativa  
 
-- `Deletar uma ramificação/branch:`
+- `Deletar uma branch/ramificação:`
 	
   *git branch -D (branch)
+ 
+  *git push origin :(branch)
 	
   **Imagem ilustrativa
 
@@ -168,11 +193,29 @@
 	
   **Imagem ilustrativa
 
-- `Verificar histórico de commits em uma linha cada:`
+- `Verificar histórico de commits em uma linha cada, ignorando o commit atual:`
 	
   *git log --oneline
 	
   **Imagem ilustrativa
+
+- `Verificar histórico de commits em uma linha cada, incluindo o commit atual:`
+	
+  *git log --oneline --all
+	
+  **Imagem ilustrativa
+
+- `Verificar histórico de commits em uma linha cada, incluindo o commit atual e o que foi modificado:`
+	
+  *git log --oneline --all --decorate
+	
+  **Imagem ilustrativa
+
+- `Verificar histórico de commits em uma linha cada, incluindo o commit atual e o que foi modificado de forma grafica:`
+	
+  *git log --oneline --all --decorate --graph
+	
+  **Imagem ilustrativa  
 
 - `Verificar histórico de versoes:`
 	
@@ -180,9 +223,23 @@
 	
   **Imagem ilustrativa
 
+- `Voltar ao estado antes do commit:`
+
+  *git revert --no-edit (id do ultimo commit)    
+
+  **Imagem ilustrativa  
+
 - `Voltar/Navegar entre commits do repositorio local:`
 
   *git checkout (id completo do comit escolhido) -- (nome do arquivo)
+
+  *git reset --soft (7 caracteres id da commit)
+
+  *git reset --mixed (7 caracteres id da commit)  
+
+  **Imagem ilustrativa
+
+- `Deletar uma commit do repositorio local:`
 
   *git reset --hard (7 caracteres id da commit)
 
@@ -349,6 +406,18 @@
 
   **Imagem ilustrativa
 
+- `Criar arquivos e documentos:`
+
+  *touch (nome e extensao)
+
+  **Imagem ilustrativa
+
+- `Abrir o VSCode depois de configurar:`
+
+  *code .
+
+  **Imagem ilustrativa
+
 - `Sair do terminal:`
 
   *exit
@@ -359,6 +428,14 @@
  
 
 ## FLUXO GITHUB:
+
+- `Cadastrar uma chave publica para atualização do github por meio do git:`
+
+  *Settings -> SSH and GPG Keys -> New SSH key ->Title(Local de criação)
+  -> Key (Colar a chave publica criada junto com a chave privada) 
+  -> Add SSH key
+
+  **Imagem ilustrativa
 
 - `Criar um repositorio:`
 
