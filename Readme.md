@@ -24,6 +24,11 @@
   
   **Imagem ilustrativa 
 
+- `Gravar dados para não precisar colocar email e senha ao fazer push`
+
+  *git config credential.helper store
+
+  **Imagem ilustrativa
 
 
 ## FLUXO GITBASH:
@@ -112,7 +117,9 @@
   **Imagem ilustrativa
 
 
+
 ## FUNCIONALIDADES GITBASH:
+
 ### ARQUIVAMENTO
 - `Adicionar e comitar ao mesmo tempo`
 
@@ -125,18 +132,6 @@
   *touch .gitignore  
 
   **Imagem ilustrativa      
-
-- `Gravar dados para não precisar colocar email e senha ao fazer push`
-
-  *git config credential.helper store
-
-  **Imagem ilustrativa
-
-- `Verificar ultimo ponto da commit:`
-	
-  *git show
-	
-  **Imagem ilustrativa
 
 - `Copiar um repositório local/remoto:`
 	
@@ -201,23 +196,11 @@
 
 
 ### VISUALIZAÇAO
-- `Verificar histórico de versoes:`
-	
-  *git reflog
-	
-  **Imagem ilustrativa
-
-- `Visulizar os repositorios remotos:`
-
-  *git remote -v
-
-  **Imagem ilustrativa  
-
 - `Verificar atualização do repositório local:`
 	
   *git status
 	
-  **Imagem ilustrativa   
+  **Imagem ilustrativa  
 
 - `Verificar histórico e id de commits:`
 	
@@ -225,6 +208,11 @@
 	
   **Imagem ilustrativa  
 
+- `Verificar histórico de versoes:`
+	
+  *git reflog
+	
+  **Imagem ilustrativa
 
 - `Verificar histórico de commits em uma linha cada, ignorando o commit atual:`
 	
@@ -236,19 +224,26 @@
 	
   *git log --oneline --all
 	
-  **Imagem ilustrativa  
+  **Imagem ilustrativa    
 
 - `Verificar histórico de commits em uma linha cada, incluindo o commit atual e o que foi modificado:`
 	
   *git log --oneline --all --decorate
 	
+  **Imagem ilustrativa    
+
+- `Visulizar os repositorios remotos:`
+
+  *git remote -v
+
   **Imagem ilustrativa  
 
-- `Verificar histórico de commits em uma linha cada, incluindo o commit atual e o que foi modificado de forma grafica:`
+- `Verificar ultimo ponto da commit:`
 	
-  *git log --oneline --all --decorate --graph
+  *git show
 	
-  **Imagem ilustrativa  
+  **Imagem ilustrativa
+
 
 - `Verificar diferenças entre commits:`
 	
