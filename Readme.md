@@ -366,5 +366,30 @@
 - `Criar um novo arquivo dentro do repositorio com nova pasta:`
 
   *Create new file -> nomear/ -> nomear -> commitar -> commit new file
+- `Criar um novo arquivo dentro do repositorio:`
 
-## KANBAN GITHUB:     
+  *Create new file -> nomear -> commitar -> commit new file
+
+- `Criar um novo arquivo dentro do repositorio com nova pasta:`
+
+  * Create new file -> nomear/ -> nomear -> commitar -> commit new file  
+
+- `Hospedar gratuitamente um site de forma limitada:`
+
+  * Repositories -> New -> Manage topcs 
+  -> Criar palavras chave -> Upload files 
+  -> Commit changes -> Settings -> Github pages
+  -> None -> Master/Main branch -> Link criado
+  -> Copiar o link ->Editar titulo -> Web Site (colar)
+  
+- `Criar um projeto estilo kanban:`
+
+  * Projects -> Create a project -> Nomear
+  ->Descrever -> Create project
+  -> Add a column 
+  -> 1° To Do ->Create column
+  -> Add a column
+  -> 2° In Progress ->Create column
+  -> Add a column
+  -> 3° Done ->Create column
+  -> Criar cartao -> + -> Add
