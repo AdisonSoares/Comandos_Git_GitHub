@@ -404,10 +404,46 @@
   -> Create column
   -> Criar cartao -> + -> Add
 
+
+## GITHUB NO ECLIPSE
+
+- `Criar um repositorio  do eclipse:`
+
+  *Botao direito no projeto -> Team -> Share Projects
+
 - `Integrar o eclipse ao github:`
 
-  *Create new file -> nomear/ -> nomear -> commitar -> commit new file  
+  *Upload files (Repositorio criado) -> Commit changes 
+
+- `Integrar o eclipse ao github:`
+
+  *Window -> Show View -> Other -> Git -> Git Repositories
+  -> Open -> Clone Git repository -> Colar link do repositorio clonado
+  -> Next -> Master -> Botão direito -> Import Projects -> Finish
+
+- `Exibir a area de trabalho do git:`
+
+  *Window -> Show View -> Other -> Git -> Git Staging -> Open
+  -> Git Repositores -> Open
+
+- `Comitar do eclipse ao github:`
+
+  *No projeto -> Botao direito -> Team -> Commit -> Commit and Push  
+
+- `Adicionar alteracoes no eclipse:`
+
+  *Botao direito no projeto -> Team -> Add to index -> Sincronize workspace 
+  -> Botao direiro -> Commit -> Unstaged (copiar) -> Staged (colar)
+  -> Commit Mensage -> Commit and Push
+
+- `Resolver o problema do acento das palavras clonadas:`
+
+  *Botao direito no projeto -> Properties -> Text from container 
+  -> UTF-8  
+
+
+## GITHUB NO VSCODE
 
 - `Integrar o vs code ao github:`
 
-  *Create new file -> nomear/ -> nomear -> commitar -> commit new file    
+  *Create new file -> nomear/ -> nomear -> commitar -> commit new file   
