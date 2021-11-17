@@ -444,6 +444,11 @@
 
 ## GITHUB NO VSCODE
 
-- `Integrar o vs code ao github:`
+- `Integrar o vs code ao git:`
 
-  *Create new file -> nomear/ -> nomear -> commitar -> commit new file   
+  *Clica no simbolo de ramificação -> Itialize Repository 
+
+- `Integrar o vs code ao git:`
+
+  *Clica nos tres ponto -> Show git output -> Terminal
+  -> Git remote add origin (link do repositorio remoto)
