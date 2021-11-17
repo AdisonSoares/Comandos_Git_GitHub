@@ -1,3 +1,4 @@
+![GitHub](https://img.shields.io/github/license/AdisonSoares/Comandos_Git_GitHub)
 ## DOWNLOADS/CADASTROS:
 
 *Cadastro no GitHub: https://github.com
@@ -374,6 +375,7 @@
 
   *Create new file -> nomear/ -> nomear -> commitar -> commit new file  
 
+<<<<<<< HEAD
 - `Hospedar gratuitamente um site de forma limitada:`
 
   *Repositories -> New -> Manage topcs 
