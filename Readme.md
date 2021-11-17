@@ -372,11 +372,11 @@
 
 - `Criar um novo arquivo dentro do repositorio com nova pasta:`
 
-  * Create new file -> nomear/ -> nomear -> commitar -> commit new file  
+  *Create new file -> nomear/ -> nomear -> commitar -> commit new file  
 
 - `Hospedar gratuitamente um site de forma limitada:`
 
-  * Repositories -> New -> Manage topcs 
+  *Repositories -> New -> Manage topcs 
   -> Criar palavras chave -> Upload files 
   -> Commit changes -> Settings -> Github pages
   -> None -> Master/Main branch -> Link criado
