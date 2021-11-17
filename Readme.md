@@ -403,3 +403,11 @@
   -> 3° "Done"
   -> Create column
   -> Criar cartao -> + -> Add
+
+- `Integrar o eclipse ao github:`
+
+  *Create new file -> nomear/ -> nomear -> commitar -> commit new file  
+
+- `Integrar o vs code ao github:`
+
+  *Create new file -> nomear/ -> nomear -> commitar -> commit new file    
