@@ -378,20 +378,28 @@
 - `Hospedar gratuitamente um site de forma limitada:`
 
   *Repositories -> New -> Manage topcs 
-  -> Criar palavras chave -> Upload files 
+  -> Criar palavras chave
+  -> Upload files  
   -> Commit changes 
   -> Settings -> Github pages
-  -> None -> Master/Main branch -> Link criado
-  -> Copiar o link ->Editar titulo -> Web Site (colar)
+  -> None -> Master/Main branch
+  -> Link criado
+  -> Copiar o link 
+  -> Editar titulo -> Web Site (colar)
   
 - `Criar um projeto estilo kanban:`
 
-  *Projects -> Create a project -> Nomear
-  ->Descrever -> Create project
+  *Projects -> Create a project
+  -> Nomear
+  -> Descrever
+  -> Create project
   -> Add a column 
-  -> 1° To Do ->Create column
+  -> 1° "To Do"
+  -> Create column
   -> Add a column
-  -> 2° In Progress ->Create column
+  -> 2° "In Progress"
+  -> Create column
   -> Add a column
-  -> 3° Done ->Create column
+  -> 3° "Done"
+  -> Create column
   -> Criar cartao -> + -> Add
