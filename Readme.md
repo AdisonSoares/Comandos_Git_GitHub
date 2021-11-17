@@ -97,30 +97,6 @@
 	
   **Imagem ilustrativa
 
-- `Visualizar o nome dos arquivos que foram editados:`
-	
-  *git diff --name-only
-	
-  **Imagem ilustrativa  
-
-- `Visualizar o que foi modificado dentro de um arquivo especifico:`
-	
-  *git diff (arquivo)
-	
-  **Imagem ilustrativa   
-
-- `Visualizar as diferenças entre branchs antes de fazer o merge:`
-	
-  *git diff (branch origem) (branch destino)
-	
-  **Imagem ilustrativa
-
-- `Desfazer uma edição antes do commit em um arquivo especifico:`
-	
-  *git checkout HEAD -- (arquivo)
-	
-  **Imagem ilustrativa
-
 - `Preparar as branchs/ramificações depois de resolver os conflitos para comitar:`
 	
   *git add .
@@ -136,9 +112,7 @@
   **Imagem ilustrativa
 
 
-
 ## FUNCIONALIDADES GITBASH:
-
 ### ARQUIVAMENTO
 - `Adicionar e comitar ao mesmo tempo`
 
@@ -218,6 +192,13 @@
 	
   **Imagem ilustrativa   
 
+- `Desfazer uma edição antes do commit em um arquivo especifico:`
+	
+  *git checkout HEAD -- (arquivo)
+	
+  **Imagem ilustrativa
+
+
 
 ### VISUALIZAÇAO
 - `Verificar histórico de versoes:`
@@ -286,6 +267,24 @@
   *git branch
 	
   **Imagem ilustrativa
+
+- `Visualizar o nome dos arquivos que foram editados:`
+	
+  *git diff --name-only
+	
+  **Imagem ilustrativa    
+
+- `Visualizar o que foi modificado dentro de um arquivo especifico:`
+	
+  *git diff (arquivo)
+	
+  **Imagem ilustrativa     
+
+- `Visualizar as diferenças entre branchs antes de fazer o merge:`
+	
+  *git diff (branch origem) (branch destino)
+	
+  **Imagem ilustrativa  
 
 
 ### EXCLUSAO
