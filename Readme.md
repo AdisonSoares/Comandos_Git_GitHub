@@ -407,39 +407,35 @@
 
 ## GITHUB NO ECLIPSE
 
-- `Criar um repositorio  do eclipse:`
+- `Criar um repositorio do eclipse:`
 
   *Botao direito no projeto -> Team -> Share Projects
+  -> Selecionar local do repositorio -> Create -> Cancel
 
 - `Integrar o eclipse ao github:`
 
-  *Upload files (Repositorio criado) -> Commit changes 
+  *Add file (Dentro do github) -> Upload files 
+  -> Cola/Seleciona a pasta do repositorio
+  -> Commit changes
 
-- `Integrar o eclipse ao github:`
+- `Resolver o problema do push no eclipse:`
 
-  *Window -> Show View -> Other -> Git -> Git Repositories
-  -> Open -> Clone Git repository -> Colar link do repositorio clonado
-  -> Next -> Master -> Botão direito -> Import Projects -> Finish
+  *Settings(Dentro do github) -> Developer settings ->
+  -> Personal acess tokens -> Generete new tokken
+  -> Nomear -> Data Expiration -> Select scopees
+  -> repo -> adminrepo_hook -> delete_repo -> Generate tokken
+  -> Salvar o tokken -> Ao enviar o commit -> Password
+  -> Colar tokken
+     
+- `Resolver o problema do acento das palavras clonadas:`
+
+  *Botao direito no projeto -> Properties -> Resource -> Text from container 
+  ->Other -> UTF-8 
 
 - `Exibir a area de trabalho do git:`
 
   *Window -> Show View -> Other -> Git -> Git Staging -> Open
   -> Git Repositores -> Open
-
-- `Comitar do eclipse ao github:`
-
-  *No projeto -> Botao direito -> Team -> Commit -> Commit and Push  
-
-- `Adicionar alteracoes no eclipse:`
-
-  *Botao direito no projeto -> Team -> Add to index -> Sincronize workspace 
-  -> Botao direiro -> Commit -> Unstaged (copiar) -> Staged (colar)
-  -> Commit Mensage -> Commit and Push
-
-- `Resolver o problema do acento das palavras clonadas:`
-
-  *Botao direito no projeto -> Properties -> Text from container 
-  -> UTF-8  
 
 
 ## GITHUB NO VSCODE
