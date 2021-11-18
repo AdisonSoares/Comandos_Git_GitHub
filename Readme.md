@@ -446,7 +446,7 @@
 
 - `Integrar o vs code ao git:`
 
-  *Clica no simbolo de ramificação -> Itialize Repository 
+  *Clica no simbolo de ramificação -> Initialize Repository 
 
 - `Integrar o vs code ao git:`
 
