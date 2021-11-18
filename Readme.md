@@ -51,7 +51,7 @@
 
 - `Gravar o endereço de envio do arquivo local ao github:`
 	
-  *git remote add origin (Link do repositorio criado no github)
+  *git remote add origin/github (Link do repositorio criado no github)
 	
 - `Enviar o arquivo comitado ao github: `
 	
