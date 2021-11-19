@@ -64,6 +64,10 @@
 
   *git push
 
+- `Resolver problemas com o push:`
+
+  *git push origin main -f
+
 - `Atualizar o servidor local com as alteracoes feitas no servidor remoto:`
 	
   *git pull
