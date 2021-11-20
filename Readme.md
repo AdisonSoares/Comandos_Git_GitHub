@@ -26,6 +26,10 @@
 
   *git config credential.helper store
 
+- `Mudar o nome da branch master para main de forma permanente:`
+
+  *git config --global init.defaultBranch main
+
 
 ## FLUXO GITBASH:
 
@@ -37,7 +41,8 @@
 - `Mudar o nome da branch master para main:`
 
   *git branch -M (Main)
-  
+
+
 - `Adicionar modificações no repositório local:`
 
   *git add .
