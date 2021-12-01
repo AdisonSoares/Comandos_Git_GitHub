@@ -1,5 +1,11 @@
 ![GitHub](https://img.shields.io/github/license/AdisonSoares/Comandos_Git_GitHub)
 
+
+
+# Sumário:
+
+* [Configurações no gitbash](# CONFIGURAÇÕES NO GITBASH:)
+
 ## DOWNLOADS/CADASTROS:
 
 *Cadastro no GitHub: https://github.com
