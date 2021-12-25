@@ -21,6 +21,8 @@
   *git config --global user.email "Email de criação do github"
   
   *git config --global user.name "Nome do usuário"  
+  
+  *git config --global core.editor "code.exe" 
    
 - `Gravar dados para não precisar colocar email e senha ao fazer push`
 
