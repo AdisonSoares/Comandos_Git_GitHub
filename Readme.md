@@ -10,11 +10,11 @@
 
 ## REGRAS PARA COMMITS SUAS MENSAGENS E ORGANIZAÇÃO DE ARQUIVOS
 
-*Commitar ao fanalizar documentos com o mesmo tema, podendo ir adicionando e commitar ao final.
+*Commitar ao fanalizar um arquivo com o mesmo tema, podendo ir adicionando e commitar ao final e fazer uma mensagem de resumo.
 
-*Cada arquivo modificado deve ter uma mensagem referente ao proprio arquivo e não a outros arquivos modificados.
+*Cada arquivo modificado deve ter uma mensagem referente ao proprio arquivo e não a outros arquivos modificados caso tenham temas diferentes.
 
-*Mensagens devem ter referencia ao arquivo principal e relatar a ação feita, caso sejam arquivos menores.
+*Mensagens devem ter referencia ao arquivo principal e relatar a ação feita de forma resumida, caso sejam arquivos menores.
 
 *Caso sejam arquivos grandes, na mensagem deve ser relatado o arquivo finalizado e o iniciado.
 
