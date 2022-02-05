@@ -8,6 +8,18 @@
 
 *Baixar o Git: https://git-scm.com
 
+## REGRAS PARA COMMITS SUAS MENSAGENS E ORGANIZAÇÃO DE ARQUIVOS
+
+*Commitar ao fanalizar documentos com o mesmo tema, podendo ir adicionando e commitar ao final.
+
+*Cada arquivo modificado deve ter uma mensagem referente ao proprio arquivo e não a outros arquivos modificados.
+
+*Mensagens devem ter referencia ao arquivo principal e relatar a ação feita, caso sejam arquivos menores.
+
+*Caso sejam arquivos grandes, na mensagem deve ser relatado o arquivo finalizado e o iniciado.
+
+*Arquivos devem ser organizados por ordem numerica ou tema alfabetico.
+
 
 
 ## CONFIGURAÇÕES NO GITBASH:
