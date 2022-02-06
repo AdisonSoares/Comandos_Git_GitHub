@@ -20,6 +20,9 @@
 
 *Arquivos devem ser organizados por ordem numerica ou tema alfabetico, de preferencia nomeando com inicial maiuscula a menos que um convenção ensine o contrario.
 
+*Ao criar arquivos maiores que vão englobar pacotes menores, deixar no final do nome do arquivos uma flag, ao finalizar a inclusão editar o arquivos maior para sinalizar 
+o final dele o inicio de outra, na mensagem commit.
+
 
 
 ## CONFIGURAÇÕES NO GITBASH:
