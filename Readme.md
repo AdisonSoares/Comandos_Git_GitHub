@@ -18,7 +18,7 @@
 
 *Caso sejam arquivos grandes, na mensagem deve ser relatado o arquivo finalizado e o iniciado.
 
-*Arquivos devem ser organizados por ordem numerica ou tema alfabetico, de preferencia nomeando com inicial maiuscula a menos que um convenção direcione o contrario.
+*Arquivos devem ser organizados por ordem numerica ou tema alfabetico, de preferencia nomeando com inicial maiuscula a menos que um convenção ensine o contrario.
 
 
 
