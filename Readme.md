@@ -20,7 +20,7 @@
 
 *Arquivos devem ser organizados por ordem numerica ou tema alfabetico, de preferencia nomeando com inicial maiuscula a menos que um convenção ensine o contrario.
 
-*Ao criar arquivos maiores que vão englobar arquivos menores, deixar no final do nome do arquivos maior uma flag, ao finalizar a inclusão, editar o arquivo maior para sinalizar 
+*Ao criar arquivos maiores que vão incluir arquivos menores, deixar no final do nome do arquivo maior uma flag, ao finalizar as inclusões, editar o arquivo maior para sinalizar 
 o final dele e o inicio de outra ou para deixar a mensagem referente ao arquivo maior apenas nela e não nos arquivos menores no momento da mensagem commit.
 
 
