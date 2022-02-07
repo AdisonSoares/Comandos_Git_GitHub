@@ -14,13 +14,8 @@
 
 *Cada arquivo modificado deve ter uma mensagem referente ao proprio arquivo e não a outros arquivos modificados caso tenham temas diferentes.
 
-*Mensagens devem ter referencia ao arquivo principal e relatar a ação feita de forma resumida, caso sejam arquivos menores.
-
-*Caso sejam arquivos grandes, na mensagem deve ser relatado o arquivo finalizado e o iniciado.
-
 *Arquivos devem ser organizados por ordem numerica ou tema alfabetico, de preferencia nomeando com inicial maiuscula a menos que um convenção ensine o contrario.
 
-*Ao criar arquivos maiores que vão incluir arquivos menores, deixar no final do nome do arquivo maior uma flag, ao finalizar as inclusões, editar o arquivo maior tirando a flag para sinalizar o final dele e o inicio de outra  e/ou para deixar a mensagem referente ao arquivo maior apenas nela e não nos arquivos menores no momento da mensagem commit.
 
 
 
