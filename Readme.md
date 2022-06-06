@@ -164,7 +164,7 @@
 
   *git reset --mixed (7 caracteres id da commit)  
   
-  - `Voltar para a branch atual:`
+- `Voltar para a branch atual:`
 	
   *git checkout main
 
