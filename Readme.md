@@ -139,8 +139,12 @@
 - `Descartar mudanças feitas antes de adicionar:`
 
   *git checkout (Arquivo modificado)
-
+  
 - `Descartar mudanças feitas depois de adicionar:`
+
+  *git reset
+
+- `Descartar mudanças feitas depois de comitar:`
 
   *git reset HEAD
 
@@ -159,6 +163,10 @@
   *git reset --soft (7 caracteres id da commit)
 
   *git reset --mixed (7 caracteres id da commit)  
+  
+  - `Voltar para a branch atual:`
+	
+  *git checkout main
 
 - `Sobrescrever alteracoes locais:`
 	
